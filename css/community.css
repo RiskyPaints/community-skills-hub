@@ -1,0 +1,249 @@
+/* PAGE */
+
+body {
+    background-color: #F4F1EA;
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    color: #2F3E46;
+}
+
+/* HEADER / NAVIGATION */
+
+nav {
+    background-color: #F4F1EA;
+    padding: 0px;
+    text-align: center;
+}
+
+nav a {
+    background-color: #2C6E7F;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #D89B2B;
+}
+
+/* MAIN HEADING/HERO */
+
+h1 {
+    background-color: #5F7F5B;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0;
+    font-size: 48px;
+}
+
+/* SUBHEADING */
+
+h2 {
+    color: #2F3E46;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 32px;
+}
+
+/* PARAGRAPHS */
+
+.intro-text {
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+    border-left: 10px solid #2C6E7F;
+    border-right: 10px solid #2C6E7F;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* COURSE CARDS */
+
+.course-card {
+    background-color: #2C6E7F;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.course-section {
+    text-align: center;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course-card h3 {
+    font-size: 24px;
+}
+
+.card-link {
+    background-color: white;
+    color: #2F3E46;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+    background-color: #D89B2B;
+}
+
+
+.course-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* SUPPORT SECTION */
+
+.support-section {
+    background-color: white;
+    text-align: center;
+    width: 40%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+    border-left: 10px solid #2C6E7F;
+    border-right: 10px solid #2C6E7F;
+}
+
+/* FOOTER */
+
+.footer-container {
+    background-color: #5F7F5B;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+    padding: 40px;
+    width: 100%;
+}
+
+.footer-statement h3 {
+    background-color: #5F7F5B;
+    color: white;
+
+    text-align: center;
+
+    padding-bottom: 40px;
+    margin: 0px;
+}
+
+.footer-column {
+    text-align: center;
+}
+
+/* LINKS */
+
+a {
+    transition: 0.3s;
+}
+
+
+
+/* ABOUT PAGE */
+
+.about-container {
+    background-color: white;
+    text-align: center;
+    width: 60%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+    border-left: 10px solid #2C6E7F;
+    border-right: 10px solid #2C6E7F;
+
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* MISSION SECTION */
+
+.mission-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 60px;
+}
+
+.mission-card {
+    background-color: white;
+
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.25);
+}
+
+.mission-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* TEAM SECTION */
+
+.team-section {
+    text-align: center;
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.team-card {
+    background-color: #2C6E7F;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.team-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: scale-down;
+    border-radius: 10px;
+}
