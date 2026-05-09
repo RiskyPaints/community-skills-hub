@@ -167,8 +167,6 @@ a {
     transition: 0.3s;
 }
 
-
-
 /* ABOUT PAGE */
 
 .about-container {
@@ -247,6 +245,43 @@ a {
     object-fit: scale-down;
     border-radius: 10px;
 }
+
+/*WHO WE HELP SECTION*/
+
+.who-we-help-container {
+    background-color: white;
+    text-align: center;
+    width: 60%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+    border-left: 10px solid #2C6E7F;
+    border-right: 10px solid #2C6E7F;
+
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.who-we-help-card {
+    background-color: white;
+    text-align: center;
+    width: 60%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+    border-left: 10px solid #2C6E7F;
+    border-right: 10px solid #2C6E7F;
+    font-size: 18px;
+    line-height: 1.6;
+} 
+
+.who-we-help-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
 
 /*TESTIMONIALS*/
 
