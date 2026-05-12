@@ -1,4 +1,4 @@
-/* PAGE */
+/* GENERAL PAGE */
 
 body {
     background-color: #F4F1EA;
@@ -65,6 +65,42 @@ h2 {
     line-height: 1.6;
 }
 
+/* FOOTER */
+
+.footer-container {
+    background-color: #5F7F5B;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+    padding: 40px;
+    width: 100%;
+}
+
+.footer-statement h3 {
+    background-color: #5F7F5B;
+    color: white;
+
+    text-align: center;
+
+    padding-bottom: 40px;
+    margin: 0px;
+}
+
+.footer-column {
+    text-align: center;
+}
+
+/* LINKS */
+
+a {
+    transition: 0.3s;
+}
+
+/* Index PAGE */
+
 /* COURSE CARDS */
 
 .course-card {
@@ -120,6 +156,47 @@ h2 {
     object-fit: cover;
 }
 
+/*TESTIMONIALS*/
+
+/* TESTIMONIAL SECTION */
+
+.testimonial-section {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: white;
+    width: 320px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    border-top: 8px solid #D89B2B;
+}
+
+.testimonial-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.testimonial-quote {
+    font-style: italic;
+    font-size: 18px;
+    color: #2C6E7F;
+    margin-bottom: 20px;
+}
+
 /* SUPPORT SECTION */
 
 .support-section {
@@ -133,39 +210,7 @@ h2 {
     border-right: 10px solid #2C6E7F;
 }
 
-/* FOOTER */
 
-.footer-container {
-    background-color: #5F7F5B;
-    color: white;
-
-    display: flex;
-    justify-content: center;
-    gap: 80px;
-
-    padding: 40px;
-    width: 100%;
-}
-
-.footer-statement h3 {
-    background-color: #5F7F5B;
-    color: white;
-
-    text-align: center;
-
-    padding-bottom: 40px;
-    margin: 0px;
-}
-
-.footer-column {
-    text-align: center;
-}
-
-/* LINKS */
-
-a {
-    transition: 0.3s;
-}
 
 /* ABOUT PAGE */
 
@@ -282,43 +327,3 @@ a {
 
 }
 
-/*TESTIMONIALS*/
-
-/* TESTIMONIAL SECTION */
-
-.testimonial-section {
-    text-align: center;
-    margin: 80px 0;
-}
-
-.testimonial-container {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-}
-
-.testimonial-card {
-    background-color: white;
-    width: 320px;
-    padding: 25px;
-    border-radius: 20px;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
-    text-align: center;
-    border-top: 8px solid #D89B2B;
-}
-
-.testimonial-card img {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-
-.testimonial-quote {
-    font-style: italic;
-    font-size: 18px;
-    color: #2C6E7F;
-    margin-bottom: 20px;
-}
