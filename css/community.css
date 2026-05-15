@@ -166,7 +166,8 @@ a {
 }
 
 .testimonial-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)   ;
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
@@ -345,7 +346,7 @@ a {
 }
 
 .enroll-button:hover {
-    
+
     background-color: #D89B2B;
 }   
 /* CONTACT PAGE */
