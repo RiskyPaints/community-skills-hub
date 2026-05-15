@@ -168,9 +168,8 @@ a {
 .testimonial-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr)   ;
-    justify-content: center;
     gap: 40px;
-    flex-wrap: wrap;
+
 }
 
 .testimonial-card {
