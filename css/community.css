@@ -227,6 +227,12 @@ a {
     line-height: 1.6;
 }
 
+.about-container ul {
+    text-align: left;
+    margin: 20px auto;
+    padding-left: 40px;
+}
+
 /* MISSION SECTION */
 
 .mission-section {
