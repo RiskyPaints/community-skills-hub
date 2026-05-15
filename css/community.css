@@ -344,6 +344,10 @@ a {
     font-weight: bold;
 }
 
+.enroll-button:hover {
+    
+    background-color: #D89B2B;
+}   
 /* CONTACT PAGE */
 
 * {
